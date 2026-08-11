@@ -38,11 +38,16 @@ provenance metadata enabled.
 ## Validate
 
 ```bash
-node /home/dreamcoder08/Documents/PROYECTOS/drenyra-ai/scripts/brand-conformance.mjs \
+node ../drenyra-ai/scripts/brand-conformance.mjs \
   assets/branding/drenyra-guardian-angel-banner.png
 # expect: ✓ <file> (coverage >= 0.92) ... PASS
 ```
-
+    
+The checker is referenced from the sibling-checkout layout: clone `drenyra-ai`
+next to this repository so `../drenyra-ai/scripts/brand-conformance.mjs`
+resolves (the same `../<repo>` layout `drenyra-ai/scripts/brand-ecosystem-status.mjs`
+assumes) — no host-specific absolute path.
+    
 Iterate with the checker's off-palette feedback until coverage ≥ 0.92.
 
 ## Freeze gate
