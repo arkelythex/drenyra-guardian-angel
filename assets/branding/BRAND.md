@@ -40,10 +40,10 @@ provenance metadata enabled.
 ```bash
 node /home/dreamcoder08/Documents/PROYECTOS/drenyra-ai/scripts/brand-conformance.mjs \
   assets/branding/drenyra-guardian-angel-banner.png
-# expect: ✓ <file> (coverage >= 0.85) ... PASS
+# expect: ✓ <file> (coverage >= 0.92) ... PASS
 ```
 
-Iterate with the checker's off-palette feedback until coverage ≥ 0.85.
+Iterate with the checker's off-palette feedback until coverage ≥ 0.92.
 
 ## Freeze gate
 
