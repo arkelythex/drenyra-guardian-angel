@@ -45,6 +45,24 @@ execution, and never performs fiscal approval.
 - **Fiscal-safe**: RUC/company/period scope enforced in every check; no data
   across RUCs without explicit context.
 
+### Drenyra Dominion Program
+
+The Guardian Angel is one vertical inside the
+[Drenyra Dominion Program](https://github.com/arkelythex/drenyra-ai/tree/main/openspec/programs/drenyra-dominion),
+the federated program master that fixes vision, authority, contracts,
+dependencies, gates, and sequencing across every Drenyra repository. A single
+master SDD governs the ecosystem; implementable vertical SDDs deliver complete
+capabilities that may traverse the repositories they need while each
+repository preserves its own ownership and boundaries.
+
+| Program vertical | This repo's role |
+| --- | --- |
+| [SDD-090 — Guardian Angel](https://github.com/arkelythex/drenyra-ai/tree/main/openspec/programs/drenyra-dominion/sdds/sdd-090-guardian) | Independent, adversarial, strictly read-only verification over frozen candidates |
+| [SDD-040 — Receipt-Driven Accounting v2](https://github.com/arkelythex/drenyra-ai/tree/main/openspec/programs/drenyra-dominion/sdds/sdd-040-rda-v2) | Provides frozen candidates with exact identity and evidence for review |
+
+**Guardian doctrine:** strictly read-only over frozen candidates; never part
+of the approval quorum; never approves, executes, or mutates candidates.
+
 ## Structure
 
 ```text
