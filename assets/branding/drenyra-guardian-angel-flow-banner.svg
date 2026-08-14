@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-label="Drenyra Guardian Angel flow — frozen candidate, independent review lenses, evidence, verification report">
+  <!-- brand-system v0.2 flow banner: theme-aware (dark + light via prefers-color-scheme),
+       canonical tokens only (contracts/brand-system/tokens.json), zero embedded text.
+       Flow motif: frozen candidate -> independent review lenses -> evidence ->
+       verification report. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="g-bg1" offset="0%"/>
+      <stop class="g-bg2" offset="55%"/>
+      <stop class="g-bg3" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="flow-c" x1="0" y1="0" x2="1" y2="0">
+      <stop class="g-c1" offset="0%"/>
+      <stop class="g-c2" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="flow-v" x1="0" y1="0" x2="1" y2="0">
+      <stop class="g-v1" offset="0%"/>
+      <stop class="g-v2" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop class="g-card1" offset="0%"/>
+      <stop class="g-card2" offset="100%"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="var(--grid)" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    :root {
+      --bg1: #0B0E11; --bg2: #12161B; --bg3: #1A1F26;
+      --grid: #FFFFFF;
+      --glow-c: #3CE6D8; --glow-v: #9B7FE8;
+      --c: #3CE6D8; --c-bright: #6AEFE4;
+      --v: #9B7FE8; --v-bright: #B8A2F0;
+      --ok: #4ADE94;
+      --n1: #12161B; --n2: #1A1F26; --n3: #20262E;
+      --border: #323A44; --border-subtle: #262C34;
+      --muted: #A8B0BC; --muted-dim: #6B7480;
+      --pending: #6B9FE8;
+      --spark: #6AEFE4;
+    }
+    .g-bg1 { stop-color: var(--bg1); }
+    .g-bg2 { stop-color: var(--bg2); }
+    .g-bg3 { stop-color: var(--bg3); }
+    .g-c1 { stop-color: var(--c); }
+    .g-c2 { stop-color: var(--c-bright); }
+    .g-v1 { stop-color: var(--v); }
+    .g-v2 { stop-color: var(--v-bright); }
+    .g-card1 { stop-color: var(--n1); }
+    .g-card2 { stop-color: var(--n2); }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg1: #FAFAF9; --bg2: #FFFFFF; --bg3: #F2F2F0;
+        --grid: #000000;
+        --glow-c: #2ECFC2; --glow-v: #6B54A8;
+        --c: #2ECFC2; --c-bright: #1F8A80;
+        --v: #6B54A8; --v-bright: #7B66C0;
+        --ok: #1A8F52;
+        --n1: #FFFFFF; --n2: #F2F2F0; --n3: #FFFFFF;
+        --border: #D4D4D0; --border-subtle: #E5E5E2;
+        --muted: #52565D; --muted-dim: #7A7F87;
+        --pending: #2E5FB8;
+        --spark: #1F8A80;
+      }
+    }
+  </style>
+
+  <!-- Background: canvas gradient + blueprint grid + cyan/violet aurora glows -->
+  <rect width="1400" height="460" fill="url(#bg)"/>
+  <rect width="1400" height="460" fill="url(#grid)"/>
+  <circle cx="1150" cy="90" r="280" fill="var(--glow-c)" opacity="0.06"/>
+  <circle cx="150" cy="410" r="320" fill="var(--glow-v)" opacity="0.05"/>
+
+  <!-- Node 1: frozen candidate (sealed block, cyan keyline, pending dot) -->
+  <g>
+    <rect x="120" y="180" width="100" height="110" rx="10" fill="var(--n1)" stroke="var(--border)" stroke-width="1.5"/>
+    <rect x="126" y="186" width="4" height="98" rx="2" fill="var(--c)" opacity="0.8"/>
+    <rect x="136" y="194" width="72" height="6" rx="3" fill="var(--muted)" opacity="0.4"/>
+    <rect x="136" y="208" width="52" height="6" rx="3" fill="var(--muted)" opacity="0.3"/>
+    <path d="M 160 238 L 160 226 A 9 9 0 0 1 178 226 L 178 238" fill="none" stroke="var(--c)" stroke-width="4.5" stroke-linecap="round"/>
+    <rect x="152" y="238" width="34" height="24" rx="6" fill="var(--c)" opacity="0.85"/>
+    <circle cx="206" cy="192" r="5" fill="var(--pending)"/>
+  </g>
+
+  <!-- Flow: frozen candidate -> review lenses (cyan) -->
+  <path d="M 224 235 C 300 235 360 235 420 235" fill="none" stroke="url(#flow-c)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 412 228 L 426 235 L 412 242 Z" fill="var(--c)"/>
+  <circle cx="325" cy="235" r="3" fill="var(--spark)" opacity="0.9"/>
+
+  <!-- Node 2: independent review lenses (twin mirrored lenses + beacon ripples) -->
+  <g>
+    <ellipse cx="545" cy="140" rx="20" ry="9" fill="var(--muted)" opacity="0.7" stroke="var(--c)" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M 520 150 C 532 166 558 166 570 150" fill="none" stroke="var(--c)" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M 506 144 C 526 176 564 176 584 144" fill="none" stroke="var(--v)" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="533" cy="158" r="3" fill="var(--spark)"/>
+    <circle cx="557" cy="158" r="3" fill="var(--spark)" opacity="0.8"/>
+    <circle cx="483" cy="235" r="62" fill="var(--c)" fill-opacity="0.12" stroke="var(--c)" stroke-width="3"/>
+    <circle cx="607" cy="235" r="62" fill="var(--v)" fill-opacity="0.12" stroke="var(--v)" stroke-width="3"/>
+    <path d="M 545 171 L 545 299" fill="none" stroke="var(--muted)" stroke-opacity="0.7" stroke-width="2"/>
+    <circle cx="483" cy="235" r="11" fill="none" stroke="var(--c)" stroke-opacity="0.6" stroke-width="1.5"/>
+    <circle cx="607" cy="235" r="11" fill="none" stroke="var(--v)" stroke-opacity="0.6" stroke-width="1.5"/>
+    <circle cx="545" cy="235" r="6" fill="var(--spark)"/>
+  </g>
+
+  <!-- Flow: review lenses -> evidence (violet) -->
+  <path d="M 673 235 C 730 235 770 235 816 235" fill="none" stroke="url(#flow-v)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 808 228 L 822 235 L 808 242 Z" fill="var(--v)"/>
+  <circle cx="745" cy="235" r="3" fill="var(--v-bright)" opacity="0.9"/>
+
+  <!-- Node 3: evidence (evidence chain + document bars) -->
+  <g>
+    <rect x="820" y="180" width="120" height="110" rx="10" fill="var(--n2)" stroke="var(--border)" stroke-width="1.5"/>
+    <circle cx="848" cy="210" r="5" fill="var(--muted)" opacity="0.9"/>
+    <circle cx="880" cy="235" r="5.5" fill="var(--muted)" opacity="0.8"/>
+    <circle cx="912" cy="260" r="5" fill="var(--muted)" opacity="0.7"/>
+    <path d="M 855 217 L 873 228" fill="none" stroke="var(--muted)" stroke-opacity="0.6" stroke-width="2"/>
+    <path d="M 887 242 L 905 253" fill="none" stroke="var(--muted)" stroke-opacity="0.6" stroke-width="2"/>
+    <rect x="834" y="274" width="92" height="6" rx="3" fill="var(--muted)" opacity="0.35"/>
+    <rect x="834" y="288" width="64" height="6" rx="3" fill="var(--muted)" opacity="0.25"/>
+    <circle cx="922" cy="192" r="5" fill="var(--v)"/>
+  </g>
+
+  <!-- Flow: evidence -> verification report (green, verified) -->
+  <path d="M 944 235 C 990 235 1020 235 1074 235" fill="none" stroke="var(--ok)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1066 228 L 1080 235 L 1066 242 Z" fill="var(--ok)"/>
+  <circle cx="1015" cy="235" r="3" fill="var(--ok)"/>
+
+  <!-- Node 4: verification report endpoint (green seal + ripple rings) -->
+  <g>
+    <rect x="1080" y="170" width="200" height="130" rx="12" fill="url(#card)" stroke="var(--border)" stroke-width="1.5"/>
+    <rect x="1092" y="184" width="176" height="8" rx="4" fill="var(--muted)" opacity="0.5"/>
+    <rect x="1092" y="200" width="140" height="8" rx="4" fill="var(--muted)" opacity="0.4"/>
+    <circle cx="1180" cy="252" r="34" fill="var(--ok)" opacity="0.14" stroke="var(--ok)" stroke-width="2"/>
+    <path d="M 1163 252 L 1175 264 L 1198 239" fill="none" stroke="var(--ok)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1180" cy="252" r="46" fill="none" stroke="var(--ok)" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="1180" cy="252" r="58" fill="none" stroke="var(--ok)" stroke-opacity="0.15" stroke-width="1.5"/>
+    <circle cx="1266" cy="182" r="3.5" fill="var(--spark)"/>
+  </g>
+</svg>
