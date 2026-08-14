@@ -1,3 +1,11 @@
+<div align="center">
+
+<img width="1200" alt="Drenyra Guardian Angel flow — frozen candidate → independent review lenses → evidence → verification report" src="assets/branding/drenyra-guardian-angel-flow-banner.svg" />
+
+<p><code>frozen candidate → independent review lenses → evidence → verification report</code></p>
+
+</div>
+
 # Drenyra Guardian Angel
 
 **Independent adversarial verification for fiscal work.** Pre-alpha.
