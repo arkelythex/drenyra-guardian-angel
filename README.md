@@ -22,10 +22,10 @@ human/R2/R3 event recorded in the candidate lifecycle.
 
 | Ecosystem project | Role | Status |
 | --- | --- | --- |
-| [Drenyra Command Center](https://github.com/arkelythex/drenyra-command-center) | Command Center (consumes) | In development (private) |
-| [Drenyra AI](https://github.com/arkelythex/drenyra-ai) | Verifiable core — contracts source | Pre-alpha |
+| [Drenyra Command Center](https://github.com/arkelythex/drenyra-command-center) | Command Center (consumes) | In development (public) |
+| [Drenyra AI](https://github.com/arkelythex/drenyra-ai) | Verifiable core — contracts source | Alpha (v0.5.0) |
 | [Drenyra Pi](https://github.com/arkelythex/drenyra-pi) | Pi-native harness (consumes, pinned) | Pre-alpha |
-| [Drenyra Engram](https://github.com/arkelythex/drenyra-engram) | Institutional memory (used) | Pre-alpha |
+| [Drenyra Engram](https://github.com/arkelythex/drenyra-engram) | Institutional memory (used) | Alpha (v0.2.1) |
 | [Drenyra Skills](https://github.com/arkelythex/drenyra-skills) | Versioned accounting/tax knowledge | In development |
 | **Drenyra Guardian Angel** | Independent adversarial verification | **This repo** |
 
