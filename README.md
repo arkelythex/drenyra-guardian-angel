@@ -1,3 +1,11 @@
+<div align="center">
+
+<img width="1200" alt="Drenyra Guardian Angel flow — frozen candidate → independent review lenses → evidence → verification report" src="assets/branding/drenyra-guardian-angel-flow-banner.svg" />
+
+<p><code>frozen candidate → independent review lenses → evidence → verification report</code></p>
+
+</div>
+
 # Drenyra Guardian Angel
 
 **Independent, adversarial, continuous verification for fiscal work** — the ecosystem's separate review lens. It verifies accounting candidates and receipts against the published `drenyra-ai` contracts, and it is **never the author of what it reviews**.
