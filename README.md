@@ -2,6 +2,8 @@
 
 **Independent, adversarial, continuous verification for fiscal work** — the ecosystem's separate review lens. It verifies accounting candidates and receipts against the published `drenyra-ai` contracts, and it is **never the author of what it reviews**.
 
+<img width="1200" alt="Frozen candidate dossier observed by Judge A and Judge B, producing canonical findings" src="assets/branding/01-drenyra-guardian-angel-hero-dual-review.svg" />
+
 > [!IMPORTANT]
 > **In development — public source repository.** This repository is publicly
 > visible on GitHub as part of the Drenyra open-core transition intention. There
@@ -125,8 +127,6 @@ contract (v0.3 DRAFT — Dreamcoder Light editorial surfaces with Anthracite Ste
 dark variants). The Guardian Angel identity is a frozen candidate dossier under
 independent review, not a literal shield or approval badge. The source direction
 lives in [`assets/branding/BRAND.md`](assets/branding/BRAND.md).
-
-<img width="1200" alt="Frozen candidate dossier observed by Judge A and Judge B, producing canonical findings" src="assets/branding/01-drenyra-guardian-angel-hero-dual-review.svg" />
 
 <details>
 <summary>Guardian Angel verification model</summary>
