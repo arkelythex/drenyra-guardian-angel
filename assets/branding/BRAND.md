@@ -4,31 +4,30 @@
 > [`drenyra-ai/contracts/brand-system.md`](https://github.com/arkelythex/drenyra-ai/blob/main/contracts/brand-system.md)
 > (v0.2 DRAFT) and canonical tokens at `contracts/brand-system/tokens.json`.
 >
-> The ecosystem design system is **the same system as Drenyra apps/web**: dark
-> + light themes and the cyan/violet accent system (DTCG token pipeline), with
-> the Dreamcoder-inspired compositional language (elevation, aurora glows,
-> curved geometry, spark accents). The Guardian Angel must **not** invent its
-> own palette — in either theme.
+> The ecosystem design system is **the same system as Drenyra apps/web**:
+> Black Dark OLED (pure `#000000`) + Dreamcoder Light (warm ivory) themes and
+> the cyan/violet accent system (DTCG token pipeline), with the Dreamcoder-
+> inspired compositional language (elevation, aurora glows, curved geometry,
+> spark accents). The Guardian Angel must **not** invent its own palette — in
+> either theme.
 
 ## Regeneration prompt (ChatGPT Images 2.0)
 
-> **Art direction (2026-08-11):** the Shared DNA block was upgraded to the premium minimal-maximal direction — see [creative-brief.md](https://github.com/arkelythex/drenyra-ai/blob/main/docs/assets/brand/creative-brief.md). Combine the product section below with the **current** Shared DNA from [gpt-image-prompts.md](https://github.com/arkelythex/drenyra-ai/blob/main/docs/assets/brand/gpt-image-prompts.md); the embedded prompt is the product section only and may trail the canonical file.
+> **Art direction (v2, Dreamcoder Light + Black Dark OLED):** see
+> [gpt-image-prompts.md](https://github.com/arkelythex/drenyra-ai/blob/main/docs/assets/brand/gpt-image-prompts.md).
+> Combine the Shared DNA block (section 4) with the product section below; the
+> embedded prompt is the product section only and may trail the canonical file.
 
 The canonical set lives in
 [`drenyra-ai/docs/assets/brand/gpt-image-prompts.md`](https://github.com/arkelythex/drenyra-ai/blob/main/docs/assets/brand/gpt-image-prompts.md).
-The Guardian Angel prompt is the **twin-lens shield** motif:
+The Guardian Angel prompt is the **guardian review instrument** motif:
 
 ```text
-Subject: a guardian shield with twin review lenses and a watchful beacon. Focal
-point on the right third: a shield formed by two mirrored curved halves — the
-left cyan #3CE6D8, the right violet #9B7FE8 — separated by a luminous seam
-with a checkmark in success green #4ADE94 at its center. Above the shield: a
-single lens-shaped beacon (muted blue-gray #A8B0BC with a cyan #6AEFE4 core)
-sending two faint concentric ripple arcs downward over the shield, with sparks
-where the ripples meet the shield's edge. Composition: the shield as the calm
-center, ripples as the only motion. Signature detail: the ripple edges resolve
-into fine engraving. Light variant (optional): halves #2ECFC2 and #6B54A8,
-checkmark #1A8F52, beacon core #1F8A80.
+Subject: independent adversarial verification rendered as a guardian review instrument. The hero on the right third is a shield-like precision form composed of two mirrored curved halves in cyan and violet, meeting at a narrow luminous seam. At the seam's center sits a small success-green trust mark, engraved rather than painted.
+
+Hovering above is a single review lens or beacon — refined, optical, and premium — with a dim cyan core. From it descend two faint concentric review ripples that interact with the shield surface, creating tiny spark points where scrutiny meets structure. The whole object should feel like a silent external reviewer watching over the system.
+
+This must feel protective, exact, and calm — not superhero, not fantasy armor, not security-software cliché. Signature detail: the fine engraved ripple traces resolving near the shield edge.
 ```
 
 ## Validate
