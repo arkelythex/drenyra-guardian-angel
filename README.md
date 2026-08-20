@@ -121,10 +121,23 @@ The verification lenses and tooling land under `src/` as they are built
 ## Brand
 
 All assets follow the [brand-system](https://github.com/arkelythex/drenyra-ai/blob/main/contracts/brand-system.md)
-contract (v0.2 — dark + light themes, cyan/violet accents). The Guardian Angel
-banner prompt (twin-lens shield motif) lives in
-[`assets/branding/BRAND.md`](assets/branding/BRAND.md) and the ecosystem set in
-[`gpt-image-prompts.md`](https://github.com/arkelythex/drenyra-ai/blob/main/docs/assets/brand/gpt-image-prompts.md).
+contract (v0.3 DRAFT — Dreamcoder Light editorial surfaces with Anthracite Steel
+dark variants). The Guardian Angel identity is a frozen candidate dossier under
+independent review, not a literal shield or approval badge. The source direction
+lives in [`assets/branding/BRAND.md`](assets/branding/BRAND.md).
+
+<img width="1200" alt="Frozen candidate dossier observed by Judge A and Judge B, producing canonical findings" src="assets/branding/01-drenyra-guardian-angel-hero-dual-review.svg" />
+
+<details>
+<summary>Guardian Angel verification model</summary>
+
+<img width="1200" alt="Verification lifecycle: freeze, scope, blind judges, canonicalize, refute, bounded correction, and verdict or escalation" src="assets/branding/02-drenyra-guardian-angel-verification-lifecycle.svg" />
+
+<img width="1200" alt="Blind dual review: one frozen target, two independent judges, and canonical finding classifications" src="assets/branding/03-drenyra-guardian-angel-blind-dual-review.svg" />
+
+<img width="1200" alt="Authority boundary: Guardian verifies, Drenyra AI runs the candidate lifecycle, and the professional authorizes" src="assets/branding/04-drenyra-guardian-angel-authority-boundary.svg" />
+
+</details>
 
 ## Documentation
 
