@@ -110,7 +110,7 @@ the approval quorum; never approves, executes, or mutates candidates.
 ## Repository Structure
 
 ```text
-assets/branding/BRAND.md     brand source + banner regeneration (brand-system v0.2)
+assets/branding/BRAND.md     brand source + banner regeneration (brand-system v0.3)
 docs/                        intended usage, codebase guide, architecture
 LICENSE                      proprietary, © Arkelythex
 ```

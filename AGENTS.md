@@ -33,7 +33,7 @@ Every change — code, docs, tests, or CI — must respect these. They are the g
 ## Where Changes Belong
 
 ```text
-assets/branding/    Brand source and banner regeneration (brand-system v0.2)
+assets/branding/    Brand source and banner regeneration (brand-system v0.3)
 docs/               Intended usage, codebase guide, architecture
 src/                Verification lenses and tooling (planned — SDD-090)
 LICENSE             Proprietary — never edited

@@ -10,7 +10,7 @@ Maintainer-oriented map of this repository: where things live, what may depend o
 ## Repository map
 
 ```text
-assets/branding/BRAND.md     Brand source + banner regeneration (brand-system v0.2)
+assets/branding/BRAND.md     Brand source + banner regeneration (brand-system v0.3)
 docs/                        Intended usage, codebase guide, architecture
 LICENSE                      Proprietary — never edited
 README.md                    Positioning-first project overview (quality bar)
