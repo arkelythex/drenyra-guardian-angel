@@ -6,6 +6,7 @@
 
 | Doc | What it covers | Read when |
 | --- | --- | --- |
+| [Documentation Standard](https://github.com/arkelythex/drenyra-ai/blob/main/docs/documentation-standard.md#5-diagrams) | Ecosystem documentation bar and the diagram convention | Writing or reviewing docs or diagrams |
 | [Intended Usage](intended-usage.md) | The frontier: what the Guardian Angel is and is NOT | Starting out — read this first |
 | [Architecture](architecture.md) | Ecosystem position, invariants, verification model, review lifecycle | Understanding the design (this doc) |
 | [Codebase Guide](CODEBASE-GUIDE.md) | Repository map, layering, invariants, where changes go | Navigating or changing the repository |
