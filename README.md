@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="1200" alt="Drenyra Guardian Angel flow — frozen candidate → independent review lenses → evidence → verification report" src="assets/branding/drenyra-guardian-angel-flow-banner.svg" />
+<img width="1200" alt="Drenyra Guardian Angel flow — frozen candidate → independent review lenses → evidence → verification report" src="assets/branding/drenyra-guardian-angel-flow-banner.light.svg#gh-light-mode-only" />
+<img width="1200" alt="Drenyra Guardian Angel flow — frozen candidate → independent review lenses → evidence → verification report" src="assets/branding/drenyra-guardian-angel-flow-banner.dark.svg#gh-dark-mode-only" />
 
 <p><code>frozen candidate → independent review lenses → evidence → verification report</code></p>
 
