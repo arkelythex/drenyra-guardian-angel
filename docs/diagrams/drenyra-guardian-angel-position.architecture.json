@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Drenyra Guardian Angel — Position in the Ecosystem",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/arkelythex/drenyra-guardian-angel",
+      "provider": "github",
+      "revision": "d57acd9e93dc77ad246f6b0869838711d699d861"
+    }
+  },
+  "components": [
+    {
+      "id": "command-center",
+      "type": "frontend",
+      "label": "Drenyra Command Center",
+      "sublabel": "professionals' interface (consumes)",
+      "sources": [
+        { "path": "docs/architecture.md", "line": 21, "label": "position diagram" }
+      ],
+      "pos": [40, 140],
+      "size": [230, 120]
+    },
+    {
+      "id": "ai",
+      "type": "backend",
+      "label": "Drenyra AI",
+      "sublabel": "frozen contracts, Ed25519 receipts",
+      "sources": [
+        { "path": "docs/architecture.md", "line": 25, "label": "position diagram" }
+      ],
+      "pos": [340, 140],
+      "size": [230, 120]
+    },
+    {
+      "id": "guardian",
+      "type": "security",
+      "label": "Guardian Angel (this)",
+      "sublabel": "independent verification, never approval",
+      "sources": [
+        { "path": "docs/architecture.md", "line": 70, "label": "verification model" }
+      ],
+      "pos": [640, 140],
+      "size": [230, 120]
+    }
+  ],
+  "connections": [
+    { "from": "command-center", "to": "ai" },
+    { "from": "ai", "to": "guardian" }
+  ]
+}

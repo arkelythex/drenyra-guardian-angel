@@ -17,24 +17,14 @@
 
 ## Position in the ecosystem
 
-```text
-                    ┌───────────────────────┐
-                    │  Drenyra Command Center│  professionals' interface (consumes)
-                    └───────────┬───────────┘
-                                ▼
-              ┌─────────────────────────────────┐
-              │            Drenyra AI           │  frozen contracts (Alpha v0.5.0)
-              │  candidate · receipt · gate ·   │  Ed25519-signed receipts,
-              │  ledger · recovery · brand      │  append-only ledger
-              └───────────┬─────────────────────┘
-                          │  published, versioned contracts
-                          ▼
-        ┌───────────────────────────────────────┐
-        │      Drenyra Guardian Angel (this)    │  independent verification
-        │  refutation · blind dual review ·     │  never the author, never approval
-        │  evidence checks · two-round rule     │
-        └───────────────────────────────────────┘
-```
+![Drenyra Guardian Angel — Position in the Ecosystem](diagrams/drenyra-guardian-angel-position.architecture.light.svg#gh-light-mode-only)
+![Drenyra Guardian Angel — Position in the Ecosystem](diagrams/drenyra-guardian-angel-position.architecture.dark.svg#gh-dark-mode-only)
+
+Drenyra Command Center is professionals' interface and consumes Drenyra AI's
+frozen contracts (candidate, receipt, gate, ledger, recovery, brand — Alpha
+v0.5.0, Ed25519-signed receipts, append-only ledger). Guardian Angel verifies
+those same published, versioned contracts independently: refutation, blind
+dual review, evidence checks, a bounded two-round rule.
 
 **Direction rule:** satellites — Command Center, Pi, Engram, Skills, and the
 Guardian Angel — consume the published `drenyra-ai` contracts; `drenyra-ai`
