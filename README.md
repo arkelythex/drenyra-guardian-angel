@@ -86,14 +86,14 @@ flowchart LR
 
 | Project | Role | Status |
 | --- | --- | --- |
-| [Drenyra Command Center](https://github.com/arkelythex/drenyra-command-center) | Command Center — web application (consumes) | In development (public) |
+| [Drenyra Desktop](https://github.com/arkelythex/drenyra-desktop) | Desktop — web application (consumes) | In development (public) |
 | [Drenyra AI](https://github.com/arkelythex/drenyra-ai) | Verifiable core — contracts source | Alpha (v0.5.0) |
-| [Drenyra Pi](https://github.com/arkelythex/drenyra-pi) | Pi-native harness (consumes, pinned) | Pre-alpha |
+| [Drenyra Shell](https://github.com/arkelythex/drenyra-shell) | Pi-native harness (consumes, pinned) | Pre-alpha |
 | [Drenyra Engram](https://github.com/arkelythex/drenyra-engram) | Institutional memory (informs, never authorizes) | Alpha (v0.2.1) |
 | [Drenyra Skills](https://github.com/arkelythex/drenyra-skills) | Versioned accounting/tax knowledge (PE jurisdiction) | In development (public) |
 | **Drenyra Guardian Angel** | Independent adversarial verification | **In development (public) — this repo** |
 
-**Direction rule:** satellites (Command Center, Pi, Engram, Skills, Guardian
+**Direction rule:** satellites (Desktop, Shell, Engram, Skills, Guardian
 Angel) consume the published `drenyra-ai` contracts — never the reverse;
 `drenyra-ai` never depends on them. The Guardian Angel consumes published,
 versioned contracts, never a checkout or private internals.
