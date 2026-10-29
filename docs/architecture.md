@@ -20,13 +20,13 @@
 ![Drenyra Guardian Angel — Position in the Ecosystem](diagrams/drenyra-guardian-angel-position.architecture.light.svg#gh-light-mode-only)
 ![Drenyra Guardian Angel — Position in the Ecosystem](diagrams/drenyra-guardian-angel-position.architecture.dark.svg#gh-dark-mode-only)
 
-Drenyra Command Center is professionals' interface and consumes Drenyra AI's
+Drenyra Console is professionals' interface and consumes Drenyra AI's
 frozen contracts (candidate, receipt, gate, ledger, recovery, brand — Alpha
 v0.5.0, Ed25519-signed receipts, append-only ledger). Guardian Angel verifies
 those same published, versioned contracts independently: refutation, blind
 dual review, evidence checks, a bounded two-round rule.
 
-**Direction rule:** satellites — Command Center, Pi, Engram, Skills, and the
+**Direction rule:** satellites — Drenyra Console, Drenyra Shell, Engram, Skills, and the
 Guardian Angel — consume the published `drenyra-ai` contracts; `drenyra-ai`
 never depends on them, and no satellite depends on another satellite's
 internals. The Guardian Angel consumes published, versioned contracts — never a
@@ -107,4 +107,4 @@ flowchart TD
 
 ## Repository scope
 
-This repository is the verification layer. It does **not** contain the product UI (that is `arkelythex/drenyra-command-center`), the verifiable core or contracts (that is `arkelythex/drenyra-ai`), the Pi harness (that is `arkelythex/drenyra-pi`), the memory engine (that is `arkelythex/drenyra-engram`), or the knowledge content (that is `arkelythex/drenyra-skills`). Today it contains brand source and the documentation set; the verification tooling is being built under SDD-090.
+This repository is the verification layer. It does **not** contain the product UI (that is `arkelythex/drenyra-console`), the verifiable core or contracts (that is `arkelythex/drenyra-ai`), the Pi harness (that is `arkelythex/drenyra-shell`), the memory engine (that is `arkelythex/drenyra-engram`), or the knowledge content (that is `arkelythex/drenyra-skills`). Today it contains brand source and the documentation set; the verification tooling is being built under SDD-090.

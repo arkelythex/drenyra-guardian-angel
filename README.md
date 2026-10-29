@@ -86,7 +86,7 @@ flowchart LR
 
 | Project | Role | Status |
 | --- | --- | --- |
-| [Drenyra Desktop](https://github.com/arkelythex/drenyra-desktop) | Desktop — web application (consumes) | In development (public) |
+| [Drenyra Console](https://github.com/arkelythex/drenyra-console) | Console — web application (consumes) | In development (public) |
 | [Drenyra AI](https://github.com/arkelythex/drenyra-ai) | Verifiable core — contracts source | Alpha (v0.5.0) |
 | [Drenyra Shell](https://github.com/arkelythex/drenyra-shell) | Pi-native harness (consumes, pinned) | Pre-alpha |
 | [Drenyra Engram](https://github.com/arkelythex/drenyra-engram) | Institutional memory (informs, never authorizes) | Alpha (v0.2.1) |
