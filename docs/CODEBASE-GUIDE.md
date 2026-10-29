@@ -45,7 +45,7 @@ reports                      verdicts and evidence to the ecosystem; never
 Rules that matter every day:
 
 1. **Frozen surface.** Verification input is the published `drenyra-ai` contracts — published, versioned artifacts, never a checkout or private internals.
-2. **One direction.** Satellites (including this repo) consume `drenyra-ai`; `drenyra-ai` never depends on them. This repo never depends on Command Center, Pi, Engram, or Skills.
+2. **One direction.** Satellites (including this repo) consume `drenyra-ai`; `drenyra-ai` never depends on them. This repo never depends on Drenyra Console, Drenyra Shell, Engram, or Skills.
 3. **Read-only.** The verification target is frozen before any check; the Guardian Angel never mutates, executes, or persists changes to it.
 4. **No authority.** Verdicts report (`APPROVED`/`ESCALATED`); they never grant approval, authority, or delivery.
 5. **No reverse surface.** Changes to the contracts themselves belong upstream in `drenyra-ai` and are a major event there.

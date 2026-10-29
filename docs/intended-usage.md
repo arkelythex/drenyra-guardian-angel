@@ -39,13 +39,13 @@ The institution is the same across the ecosystem: **the AI proposes, the system 
 | **Drenyra Guardian Angel** | Independent, adversarial, continuous verification over the frozen contracts (this repo) |
 | **Drenyra Engram** | Institutional memory — informs, never authorizes |
 | **Drenyra Skills** | Versioned accounting, tax, and operational knowledge (PE jurisdiction) |
-| **Drenyra Pi** | Pi-native harness (consumes, pinned) |
-| **Drenyra Command Center** | Web application for professionals (consumes) |
+| **Drenyra Shell** | Pi-native harness (consumes, pinned) |
+| **Drenyra Console** | Web application for professionals (consumes) |
 | **Human accountant** | Final authority — decides, approves, and owns the fiscal outcome |
 
 ## The target experience
 
-A professional accountant works in the Command Center. Behind the scenes, every material candidate is verified by an independent adversarial lens: two blind judges, refutation, evidence checks, a bounded correction budget, and a clear verdict. The professional never operates the verification machinery — they receive the verdict, the evidence, and the decision rights, and they remain the final authority.
+A professional accountant works in the Drenyra Console. Behind the scenes, every material candidate is verified by an independent adversarial lens: two blind judges, refutation, evidence checks, a bounded correction budget, and a clear verdict. The professional never operates the verification machinery — they receive the verdict, the evidence, and the decision rights, and they remain the final authority.
 
 > "The system that did the work is not the system that checked the work."
 
