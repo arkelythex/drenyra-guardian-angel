@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Drenyra Guardian Angel — Independent Fiscal Verification",
+    "output": "docs/diagrams/drenyra-guardian-angel.architecture.html",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "repository": {
+      "url": "https://github.com/arkelythex/drenyra-guardian-angel",
+      "revision": "783833b056d3bb56fe5ad26f59be0cadee16cf2f"
+    }
+  },
+  "components": [
+    {
+      "id": "candidate",
+      "type": "external",
+      "label": "Frozen Candidate",
+      "sublabel": "drenyra-ai contract",
+      "pos": [
+        40,
+        210
+      ],
+      "size": [
+        150,
+        62
+      ]
+    },
+    {
+      "id": "intake",
+      "type": "security",
+      "label": "Contract Intake",
+      "sublabel": "candidate · receipt · gate",
+      "pos": [
+        280,
+        210
+      ],
+      "size": [
+        175,
+        62
+      ],
+      "sources": [
+        {
+          "path": "docs/architecture.md"
+        },
+        {
+          "path": "docs/intended-usage.md"
+        }
+      ]
+    },
+    {
+      "id": "lenses",
+      "type": "backend",
+      "label": "Adversarial Lenses",
+      "sublabel": "independent review",
+      "pos": [
+        550,
+        210
+      ],
+      "size": [
+        170,
+        62
+      ],
+      "sources": [
+        {
+          "path": "docs/CODEBASE-GUIDE.md"
+        },
+        {
+          "path": "AI_POLICY.md"
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "type": "database",
+      "label": "Verification Report",
+      "sublabel": "evidence-backed findings",
+      "pos": [
+        815,
+        210
+      ],
+      "size": [
+        175,
+        62
+      ],
+      "sources": [
+        {
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "type": "security",
+      "label": "AI & Authority Policy",
+      "sublabel": "human retains sign-off",
+      "pos": [
+        550,
+        60
+      ],
+      "size": [
+        175,
+        60
+      ],
+      "sources": [
+        {
+          "path": "AI_POLICY.md"
+        },
+        {
+          "path": "AGENTS.md"
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Independent Adversarial Verification Boundary",
+      "wraps": [
+        "intake",
+        "lenses",
+        "report",
+        "policy"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "cand-intake",
+      "from": "candidate",
+      "to": "intake",
+      "label": "submit",
+      "variant": "emphasis"
+    },
+    {
+      "id": "intake-lenses",
+      "from": "intake",
+      "to": "lenses",
+      "label": "freeze & scope",
+      "variant": "emphasis"
+    },
+    {
+      "id": "policy-lenses",
+      "from": "policy",
+      "to": "lenses",
+      "label": "constrain",
+      "variant": "security",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "lenses-report",
+      "from": "lenses",
+      "to": "report",
+      "label": "emit findings",
+      "variant": "emphasis"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "rose",
+      "title": "Strict Separation",
+      "items": [
+        "Consumes drenyra-ai public contracts (candidate, receipt, gate) without mutating source proposals",
+        "Adversarial verification stays independent from the authoring runtime"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Governance",
+      "items": [
+        "AI_POLICY.md and docs/intended-usage.md define non-negotiable human authorization boundaries"
+      ]
+    }
+  ]
+}
